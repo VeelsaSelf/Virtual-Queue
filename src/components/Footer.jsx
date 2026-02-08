@@ -31,13 +31,16 @@ export function Footer() {
           marginBottom: '6rem',
         }}>
           {/* Brand */}
-          <div>
+          <div style={{
+            position: 'relative',
+            top: '-2rem',
+}}>
             <div style={{ 
               display: 'flex', 
               alignItems: 'center', 
               gap: '0.5rem', 
               marginBottom: '0rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               <svg width="232" height="56" viewBox="0 0 232 56" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8596 1.11623C24.6053 2.90036 26.5439 5.79955 27.7368 7.13764C26.0219 11.3749 27.0658 15.0175 28.8553 16.4177C21.3246 13.4564 18.9386 3.49506 23.8596 1.11623Z" fill="#1C1917"/>
@@ -82,13 +85,16 @@ export function Footer() {
           </div>
 
           {/* Address */}
-          <div>
+          <div style={{
+               left: '17rem',
+               position: 'relative',
+          }}>
             <h3 style={{
               fontSize: '0.95rem',
               fontWeight: '700',
               color: COLORS.darkBg,
               marginBottom: '1rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               Address
             </h3>
@@ -108,7 +114,7 @@ export function Footer() {
               fontWeight: '700',
               color: COLORS.darkBg,
               marginBottom: '1rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               Hours
             </h3>

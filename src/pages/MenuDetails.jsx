@@ -90,13 +90,13 @@ export function MenuDetails() {
               fontWeight: 'bold',
               marginBottom: '1rem',
               color: COLORS.white,
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               {MENU_DETAILS.name}
             </h1>
 
             <p style={{
-              color: COLORS.mediumGray,
+              color: COLORS.white,
               fontSize: '1rem',
               marginBottom: '2rem',
               lineHeight: '1.6',
@@ -111,7 +111,7 @@ export function MenuDetails() {
                 fontWeight: '600',
                 marginBottom: '1rem',
                 color: COLORS.white,
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
               }}>
                 Size
               </h3>
@@ -147,7 +147,7 @@ export function MenuDetails() {
                 fontWeight: '600',
                 marginBottom: '1rem',
                 color: COLORS.white,
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
               }}>
                 Sugar Level
               </h3>
@@ -182,7 +182,7 @@ export function MenuDetails() {
                 fontWeight: '600',
                 marginBottom: '1rem',
                 color: COLORS.white,
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
               }}>
                 Ice Level
               </h3>
@@ -217,7 +217,7 @@ export function MenuDetails() {
                 fontWeight: '600',
                 marginBottom: '1rem',
                 color: COLORS.white,
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
               }}>
                 Add-ons
               </h3>
@@ -256,11 +256,11 @@ export function MenuDetails() {
                   fontSize: '1rem',
                   fontWeight: '600',
                   color: COLORS.white,
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: "'Inter', serif",
                 }}>
                   Catatan
                 </label>
-                <span style={{ color: COLORS.mediumGray, fontSize: '0.85rem' }}>Opsional</span>
+                <span style={{ color: COLORS.white, fontSize: '0.85rem' }}>Opsional</span>
               </div>
               <input
                 type="text"
@@ -306,7 +306,7 @@ export function MenuDetails() {
             fontSize: '1.75rem',
             fontWeight: 'bold',
             color: COLORS.tanAccent,
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
             margin: 0,
           }}>
             Rp {totalPrice.toLocaleString('id-ID')}
@@ -383,7 +383,7 @@ export function MenuDetails() {
                 color: COLORS.darkBg,
                 fontSize: '1rem',
                 fontWeight: '600',
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
                 cursor: 'pointer',
                 transition: 'all 0.3s',
               }}

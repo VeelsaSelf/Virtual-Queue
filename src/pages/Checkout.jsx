@@ -64,7 +64,7 @@ export function Checkout() {
                 fontSize: '1.1rem',
                 fontWeight: '600',
                 color: COLORS.white,
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
                 margin: 0,
               }}>
                 Ringkasan Pesanan
@@ -100,7 +100,7 @@ export function Checkout() {
                       fontWeight: '600',
                       color: COLORS.white,
                       margin: '0 0 0.25rem 0',
-                      fontFamily: "'Playfair Display', serif",
+                      fontFamily: "'Inter', serif",
                     }}>
                       {item.name}
                     </h3>
@@ -118,7 +118,7 @@ export function Checkout() {
                     fontWeight: '600',
                     color: COLORS.tanAccent,
                     margin: 0,
-                    fontFamily: "'Playfair Display', serif",
+                    fontFamily: "'Inter', serif",
                   }}>
                     Rp {item.price.toLocaleString('id-ID')}
                   </p>
@@ -141,7 +141,7 @@ export function Checkout() {
                   fontWeight: '600',
                   color: COLORS.white,
                   margin: 0,
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: "'Inter', serif",
                 }}>
                   Metode Pembayaran
                 </h3>
@@ -223,7 +223,7 @@ export function Checkout() {
                   fontSize: '0.95rem',
                   fontWeight: '600',
                   color: COLORS.white,
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: "'Inter', serif",
                 }}>
                   Nama
                 </label>
@@ -280,7 +280,7 @@ export function Checkout() {
                   fontSize: '1.1rem',
                   fontWeight: '700',
                   margin: 0,
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: "'Inter', serif",
                 }}>
                   Total
                 </h3>
@@ -288,7 +288,7 @@ export function Checkout() {
                   color: COLORS.tanAccent,
                   fontSize: '1.1rem',
                   fontWeight: '700',
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: "'Inter', serif",
                 }}>
                   Rp {total.toLocaleString('id-ID')}
                 </span>
@@ -320,7 +320,7 @@ export function Checkout() {
             fontSize: '1.5rem',
             fontWeight: 'bold',
             color: COLORS.tanAccent,
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
             margin: 0,
           }}>
             Rp {total.toLocaleString('id-ID')}
@@ -336,7 +336,7 @@ export function Checkout() {
               color: COLORS.darkBg,
               fontSize: '0.95rem',
               fontWeight: '600',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
               cursor: 'pointer',
               transition: 'all 0.3s ease',
             }}

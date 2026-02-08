@@ -1,11 +1,11 @@
 # MAU KOPI - Professional Coffee Shop React App
 
-100% Pixel-Perfect React Application matching the design specifications with Playfair Display & Inter fonts.
+100% Pixel-Perfect React Application matching the design specifications with Inter & Inter fonts.
 
 ## ✨ Features
 
 - ✅ **100% Design Match** - Exact pixel-perfect implementation
-- ✅ **Professional Fonts** - Playfair Display (Headings) + Inter (Body)
+- ✅ **Professional Fonts** - Inter (Headings) + Inter (Body)
 - ✅ **Real Product Images** - Uses Unsplash API for quality images
 - ✅ **Full Navigation** - React Router v6 routing
 - ✅ **Payment Status Flow** - Multiple states (Waiting, Processing, Failed, Success)
@@ -131,7 +131,7 @@ http://localhost:3000
 ```
 
 ### Fonts
-- **Headings**: Playfair Display (400, 500, 600, 700, 800)
+- **Headings**: Inter (400, 500, 600, 700, 800)
 - **Body**: Inter (300, 400, 500, 600, 700)
 - Imported from Google Fonts CDN
 
@@ -172,7 +172,7 @@ Home (/)
 - **React Router DOM**: 6.8.0
 - **Lucide React**: Icons (Bell, ShoppingCart, Clock, etc.)
 - **Tailwind CSS**: Utility classes via CDN
-- **Google Fonts**: Playfair Display + Inter
+- **Google Fonts**: Inter + Inter
 
 ## 🎯 Key Features
 

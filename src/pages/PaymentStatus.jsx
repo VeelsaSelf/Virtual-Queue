@@ -8,7 +8,7 @@ import { CART_ITEMS } from '../constants/products';
 export function PaymentStatus() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const [timeLeft, setTimeLeft] = useState(120); // 2 MINUTES = 120 seconds
+  const [timeLeft, setTimeLeft] = useState(60); // 60 seconds countdown
   const [currentStatus, setCurrentStatus] = useState('waiting'); // waiting, processing, failed, success
   
   const paymentMethod = searchParams.get('payment') || 'cash';
@@ -134,7 +134,7 @@ export function PaymentStatus() {
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '1rem', fontWeight: 'bold' }}>
           <span style={{ color: COLORS.white }}>Total</span>
-          <span style={{ color: COLORS.tanAccent, fontFamily: "'Playfair Display', serif" }}>Rp {total.toLocaleString('id-ID')}</span>
+          <span style={{ color: COLORS.tanAccent, fontFamily: "'Inter', serif" }}>Rp {total.toLocaleString('id-ID')}</span>
         </div>
       </div>
     </>
@@ -164,7 +164,7 @@ export function PaymentStatus() {
               color: COLORS.white,
               textAlign: 'center',
               marginBottom: '0.75rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               Complete Your Payment
             </h2>
@@ -214,7 +214,7 @@ export function PaymentStatus() {
                 fontSize: '1rem',
                 fontWeight: '600',
                 cursor: 'not-allowed',
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
               }}
             >
               Waiting for Payment...
@@ -245,7 +245,7 @@ export function PaymentStatus() {
               color: COLORS.white,
               textAlign: 'center',
               marginBottom: '0.75rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               Processing Your Payment
             </h2>
@@ -283,7 +283,7 @@ export function PaymentStatus() {
                 fontSize: '1rem',
                 fontWeight: '600',
                 cursor: 'not-allowed',
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
               }}
             >
               Processing...
@@ -314,7 +314,7 @@ export function PaymentStatus() {
               color: COLORS.white,
               textAlign: 'center',
               marginBottom: '0.75rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               Payment Failed
             </h2>
@@ -351,7 +351,7 @@ export function PaymentStatus() {
                 color: COLORS.darkBg,
                 fontSize: '1rem',
                 fontWeight: '600',
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
                 cursor: 'pointer',
                 transition: 'all 0.3s',
               }}
@@ -391,7 +391,7 @@ export function PaymentStatus() {
               color: COLORS.white,
               textAlign: 'center',
               marginBottom: '0.75rem',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
             }}>
               Payment Completed
             </h2>
@@ -428,7 +428,7 @@ export function PaymentStatus() {
                 color: COLORS.darkBg,
                 fontSize: '1rem',
                 fontWeight: '600',
-                fontFamily: "'Playfair Display', serif",
+                fontFamily: "'Inter', serif",
                 cursor: 'pointer',
                 transition: 'all 0.3s',
               }}

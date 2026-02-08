@@ -102,7 +102,7 @@ export function Cart() {
                     fontWeight: '600',
                     color: COLORS.white,
                     margin: '0 0 0.5rem 0',
-                    fontFamily: "'Playfair Display', serif",
+                    fontFamily: "'Inter', serif",
                   }}>
                     {item.name}
                   </h3>
@@ -119,7 +119,7 @@ export function Cart() {
                       color: COLORS.mediumGray,
                       fontSize: '0.75rem',
                       margin: 0,
-                      fontStyle: 'italic',
+                    
                     }}>
                       {item.notes}
                     </p>
@@ -184,7 +184,7 @@ export function Cart() {
                     fontWeight: '600',
                     color: COLORS.tanAccent,
                     margin: 0,
-                    fontFamily: "'Playfair Display', serif",
+                    fontFamily: "'Inter', serif",
                   }}>
                     Rp {(item.price * item.quantity).toLocaleString('id-ID')}
                   </p>
@@ -243,7 +243,7 @@ export function Cart() {
             fontSize: '1.75rem',
             fontWeight: 'bold',
             color: COLORS.tanAccent,
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
             margin: 0,
           }}>
             Rp {calculateTotal().toLocaleString('id-ID')}
@@ -259,7 +259,7 @@ export function Cart() {
               color: COLORS.darkBg,
               fontSize: '1rem',
               fontWeight: '600',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Inter', serif",
               cursor: 'pointer',
               transition: 'all 0.3s ease',
             }}

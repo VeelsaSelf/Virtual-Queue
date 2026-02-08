@@ -32,7 +32,7 @@ export function Header({ cartCount = 3 }) {
             alignItems: 'center', 
             gap: '0.75rem', 
             cursor: 'pointer',
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
           }}>
           <svg width="166" height="40" viewBox="0 0 166 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16.8421 0.797311C17.3684 2.07168 18.7368 4.14254 19.5789 5.09832C18.3684 8.12495 19.1053 10.7268 20.3684 11.7269C15.0526 9.61172 13.3684 2.49647 16.8421 0.797311Z" fill="#FCFCFB"/>

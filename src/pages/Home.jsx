@@ -38,7 +38,7 @@ export function Home() {
         <div style={{ animation: 'fadeInUp 0.6s ease-out' }}>
           <h1 style={{
             fontSize: '4rem',
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
             fontWeight: '700',
             color: COLORS.white,
             marginBottom: '1.5rem',
@@ -113,7 +113,7 @@ export function Home() {
             borderRadius: '2rem',
             fontSize: '0.9rem',
             fontWeight: '600',
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
           }}>
             Cappuccino
           </div>
@@ -142,7 +142,7 @@ export function Home() {
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <h2 style={{
             fontSize: '3rem',
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Inter', serif",
             fontWeight: '700',
             color: COLORS.white,
             marginBottom: '0.5rem',
@@ -151,7 +151,7 @@ export function Home() {
           </h2>
           <p style={{
             fontSize: '0.95rem',
-            color: COLORS.mediumGray,
+            color: COLORS.white,
           }}>
             Good things are worth lingering over.
           </p>
@@ -247,13 +247,13 @@ export function Home() {
                   fontWeight: '700',
                   color: COLORS.white,
                   marginBottom: '0.5rem',
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: "'Inter', serif",
                 }}>
                   {product.name}
                 </h3>
 
                 <p style={{
-                  color: COLORS.mediumGray,
+                  color: COLORS.white,
                   fontSize: '0.9rem',
                   marginBottom: '1.5rem',
                   height: '3rem',
