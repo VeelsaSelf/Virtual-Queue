@@ -88,6 +88,7 @@ export function Footer() {
           <div style={{
                left: '17rem',
                position: 'relative',
+               top: '-1rem',
           }}>
             <h3 style={{
               fontSize: '0.95rem',
@@ -108,7 +109,11 @@ export function Footer() {
           </div>
 
           {/* Hours */}
-          <div>
+          <div style={{
+               
+               position: 'relative',
+               top: '-1rem',
+        }}>
             <h3 style={{
               fontSize: '0.95rem',
               fontWeight: '700',

@@ -86,7 +86,7 @@ export const CART_ITEMS = [
   },
   {
     id: 3,
-    name: 'Chocolate Brownie',
+    name: 'Chocolate Brownies',
     specs: 'Served Warm • Add Vanilla Ice Cream',
     notes: 'Catatan: Es krimnya tolong dipisah',
     price: 25000,

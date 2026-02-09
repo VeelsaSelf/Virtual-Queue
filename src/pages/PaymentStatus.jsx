@@ -8,7 +8,7 @@ import { CART_ITEMS } from '../constants/products';
 export function PaymentStatus() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const [timeLeft, setTimeLeft] = useState(60); // 60 seconds countdown
+  const [timeLeft, setTimeLeft] = useState(10); // 60 seconds countdown
   const [currentStatus, setCurrentStatus] = useState('waiting'); // waiting, processing, failed, success
   
   const paymentMethod = searchParams.get('payment') || 'cash';
